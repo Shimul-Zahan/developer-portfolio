@@ -14,6 +14,16 @@
     font-size: 20px;
     font-weight: 700;
 }
+.btn-secondary{
+    width: 150px;
+    height: 64px;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
 span{
     color: #FD6E0A;
 }
@@ -176,4 +186,56 @@ nav ul li a{
     font-weight: 400;
     line-height: 28px;
     margin-left: 33px;
+}
+.resume-container h1{
+    text-align: center;
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+
+/* Resume */
+.resume-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.edu-resume-containe{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+/* Education part */
+.education-part h2{
+    color: var(--dark-02, black);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.education-part-desc h3{
+    color: var(--dark-02, black);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.education-part-desc h4{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.education-part-desc p{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+hr{
+    margin-bottom: 30px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 131px;
 }
